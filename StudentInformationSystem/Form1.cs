@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace StudentInformationSystem
 {
@@ -15,6 +16,30 @@ namespace StudentInformationSystem
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void TestConnection()
+        {
+            Database db = new Database();
+
+            try
+            {
+                using (MySqlConnection conn = db.GetConnection())
+                {
+                    conn.Open();
+
+                    MessageBox.Show("Database connection successful!");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Database connection failed:\n" + ex.Message);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            TestConnection();
         }
     }
 }
