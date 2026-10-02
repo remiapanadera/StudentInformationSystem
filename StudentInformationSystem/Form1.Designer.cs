@@ -1,6 +1,6 @@
 ﻿namespace StudentInformationSystem
 {
-    partial class Form1
+    partial class dgvStudents
     {
         /// <summary>
         /// Required designer variable.
