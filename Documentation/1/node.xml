@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="1" master_id="0" name="Database Information" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1790929514" ts_lastsave="1790929563">
+    <rich_text>DATABASE INFORMATION
+
+Database Name
+student_information_system
+
+Table Name
+students
+
+Table Structure
+
+1. student_id
+   Type: VARCHAR(20)
+   Primary Key
+   Required
+
+2. name
+   Type: VARCHAR(100)
+   Required
+
+3. gender
+   Type: VARCHAR(20)
+   Required
+
+4. year_level
+   Type: INT
+   Required
+
+5. program
+   Type: VARCHAR(100)
+   Required
+
+6. contact_number
+   Type: VARCHAR(20)
+   Required
+
+Sample Records
+The database contains sample student records used for testing the application.
+
+Database Operations
+The application connects to MySQL and performs:
+• INSERT – Add student
+• SELECT – View and search students
+• UPDATE – Edit student information
+• DELETE – Remove student</rich_text>
+  </node>
+</cherrytree>

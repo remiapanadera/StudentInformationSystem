@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="3" master_id="0" name="App Walkthrough" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1790929593" ts_lastsave="1790929600">
+    <rich_text>APP WALKTHROUGH
+
+1. Launching the Application
+Run the Student Information System from Visual Studio.
+
+The main window displays the student information form and the student records in a DataGridView.
+
+2. Adding a Student
+Enter the following information:
+• Student ID
+• Name
+• Gender
+• Year Level
+• Program
+• Contact Number
+
+Click the Add button.
+
+The application validates the required fields and saves the new student to the MySQL database.
+
+3. Viewing Students
+Student records are displayed in the DataGridView when the application loads.
+
+4. Searching for a Student
+Enter a Student ID or Name in the Search field.
+
+The DataGridView automatically filters the records based on the search text.
+
+5. Updating a Student
+Select a student from the DataGridView.
+
+Edit the information in the input fields and click the Update button.
+
+The changes are saved to the MySQL database.
+
+6. Deleting a Student
+Select a student from the DataGridView.
+
+Click Delete.
+
+A confirmation message asks whether the student should be deleted.
+
+Click Yes to permanently remove the record.
+
+7. Clearing the Form
+Click the Clear button to remove the information from the input fields.
+
+8. Error Handling
+The application uses validation and try-catch blocks to handle missing information and database errors without crashing the application.
+
+TESTING COMPLETED
+
+The following features have been tested:
+✓ Add
+✓ View
+✓ Search
+✓ Update
+✓ Delete
+✓ Clear
+✓ Required-field validation
+✓ Database connection</rich_text>
+  </node>
+</cherrytree>

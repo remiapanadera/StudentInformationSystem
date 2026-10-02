@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cherrytree>
+  <node unique_id="2" master_id="0" name="Setup Guide" prog_lang="custom-colors" tags="" readonly="0" nosearch_me="0" nosearch_ch="0" custom_icon_id="0" is_bold="0" foreground="" ts_creation="1790929563" ts_lastsave="1790929571">
+    <rich_text>SETUP GUIDE
+
+Requirements
+• Visual Studio
+• .NET Windows Forms
+• MySQL Server
+• MySQL Workbench
+• Git
+• GitHub
+• CherryTree
+
+1. Clone the GitHub Repository
+Clone the group's GitHub repository to the computer.
+
+2. Open the Visual Studio Project
+Open the Student Information System solution (.sln) in Visual Studio.
+
+3. Set Up the Database
+Open MySQL Workbench and make sure MySQL Server is running.
+
+Use the provided SQL script:
+
+student_information_system.sql
+
+The script creates the database and students table.
+
+4. Check the Database Connection
+Open the project in Visual Studio and check the database connection settings in Database.cs.
+
+The application should connect to:
+
+Database: student_information_system
+Table: students
+
+5. Run the Application
+Start the application from Visual Studio.
+
+The application should display the existing student records in the DataGridView.
+
+6. Test the Features
+Test the following:
+• Add a student
+• View student records
+• Search by Student ID or Name
+• Update a student
+• Delete a student
+• Clear the input fields
+
+7. GitHub
+Commit changes regularly and push them to the group's GitHub repository.</rich_text>
+  </node>
+</cherrytree>
